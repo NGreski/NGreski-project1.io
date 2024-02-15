@@ -21,7 +21,7 @@ ul{
     
 }
 
-.logo{
+.homepage{
     font-size: 24px;
 }
 
@@ -31,16 +31,49 @@ ul{
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: rgb(145, 145, 145);
 }
 
-.prof-pic { 
+.prof-pic img{ 
+    width: 225px;
     height: auto;
-    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 10px;
+    border: 10px black;
 }
 
 .prof-name {
     font-size: 24px; 
+    text-align: center;
+}
+
+.student-athlete {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+
+.athlete img {
+    width: 207px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.student img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.student, .athlete{
+    text-align: center;
+    font-size: 18px;
+}
+
+h2{
     text-align: center;
 }
 
