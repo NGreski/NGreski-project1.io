@@ -87,6 +87,51 @@ img{
     border-bottom: 2px solid #333;
     padding-bottom: 5px;
     margin-top: 20px;
+    transition: transform 5.0s ease-in-out;
+}
+
+
+
+.blog-head{
+    display: flex;
+    justify-content: center;
+    border: black solid 1px;
+    padding: 50px;
+    
+}
+
+.blog-main{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border: black solid 1px;
+}
+
+
+.left-sidebar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: black solid 1px;
+}
+
+.right-sidebar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+}
+
+.blog-foot{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.friends-images img{
+    display: flex;
+    
+    
 }
 
 body{
@@ -119,3 +164,8 @@ body{
 .student img:hover{
     transform: scale(1.15);
 }
+
+.about-me h2:hover{
+    transform: translateX(450px)
+}
+
